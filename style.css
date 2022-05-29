@@ -1,7 +1,35 @@
 
+* {
+    background-color: darkcyan;
+}
+
 #Nav {
     display: flex;
     size: 1.5rem;
+    align-items: center;
     
 }
 
+#inputbutton {
+    color: white;
+}
+
+#yourInput {
+    background-color: aliceblue;
+}
+
+#bigbuttony {
+    color: white;
+    background-color: brown;
+}
+
+#weeksWeather {
+    display: flex;
+}
+
+#weeksIcons {
+    border-width: 3px;
+    border-style: dashed;
+    border-color: aquamarine;
+    margin: 5px;
+}

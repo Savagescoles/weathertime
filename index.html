@@ -7,21 +7,49 @@
     <link rel="stylesheet" href="style.css">
     <title>Weather Time</title>
 </head>
-<body>
+<body onload="weatherTimeDefault()">
 <Nav id="Nav">
     Forecast
 </Nav>
     <h1 id="bigName">It's WEATHER TIME</h1>
     <p id="inputbutton">City<input type="text" id="yourInput"></p>
-    <button type="button" onclick="weatherTime()">Clicky Click</button>
+    <button id="bigbuttony" type="button" onclick="weatherTime()">Clicky Click</button>
     <h2 id="bigCity">Shelton</h2>
 
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
+    <div id="weeksWeather">
+        <div id="weeksIcons">
+            <p class="weather" id="day1"></p>
+            <div class="image"><img src="/" class="imgClass" id="img1"></div>
+            <p class="minValues" id="day1Min">Use the Force Luke..</p>
+            <p class="maxValues" id="day1Max">Use the Force Luke..</p>   
+        </div>
+        <div class = "icons">
+            <p class="weather" id="day2"></p>
+            <div class="image"><img src="/" class="imgClass" id="img2"></div>
+            <p class="minValues" id="day2Min">Use the Force Luke..</p>
+            <p class="maxValues" id="day2Max">Use the Force Luke..</p>
+        </div>
+        <div class = "icons">
+            <p class="weather" id="day3"></p>
+            <div class="image"><img src="/" class="imgClass" id="img3"></div>
+            <p class="minValues" id="day3Min">Use the Force Luke..</p>
+            <p class="maxValues" id="day3Max">Use the Force Luke..</p>
+        </div>
+        <div class = "icons">
+            <p class="weather" id="day4"></p>
+            <div class="image"><img src="/" class="imgClass" id="img4"></div>
+            <p class="minValues" id="day4Min">Use the Force Luke..</p>
+            <p class="maxValues" id="day4Max">Use the Force Luke..</p>
+        </div>
+        <div class = "icons">
+            <p class="weather" id="day5"></p>
+            <div class="image"><img src="/" class="imgClass" id="img5"></div>
+            <p class="minValues" id="day5Min">Use the Force Luke..</p>
+            <p class="maxValues" id="day5Max">Use the Force Luke..</p>
+    </div>
+   
     
     <script src="script.js"></script>
+    
 </body>
 </html>
