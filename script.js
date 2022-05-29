@@ -11,12 +11,13 @@ function weatherTime () {
     var cityInput = document.getElementById('yourInput');
     var bigCity = document.getElementById('bigCity');
     bigCity.innerHTML = cityInput.value;
+  
+
+
+//Setting bigCity.innerHTML into local storage under 'recent'
 
     localStorage.setItem('recent', bigCity.innerHTML);
     localStorage.getItem('recent');
-
-
-
 
 // fetching openweather API and getting the users input with my API Key from openweather.org/appID documentation
 // In the API call for degrees F you must include &units=imperial as part of your API call
@@ -101,3 +102,4 @@ function CheckDay(day){
     function saveWeather() {
         localStorage.setItem("searchedCity", bigCity);
     }
+
